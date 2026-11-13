@@ -1,0 +1,31 @@
+{
+  "source_notebook": "SmartCar_Used_Car_Price_Prediction.ipynb",
+  "note": "Copied verbatim from the notebook's evaluation cells. No value here is estimated or invented.",
+  "selection_criterion": "Lowest MAE (INR) on the held-out test set",
+  "best_model": "Linear Regression",
+  "model_order_by_mae": ["Linear Regression", "Random Forest", "Decision Tree", "Gradient Boosting"],
+  "metrics": {
+    "Linear Regression": { "mae": 95266.716710, "rmse": 255037.314897, "r2": 0.703431 },
+    "Random Forest": { "mae": 105127.111513, "rmse": 251826.522978, "r2": 0.710851 },
+    "Decision Tree": { "mae": 107289.409692, "rmse": 280816.223958, "r2": 0.640447 },
+    "Gradient Boosting": { "mae": 142846.717565, "rmse": 284382.795066, "r2": 0.631256 }
+  },
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "train_rows": 5540,
+    "test_rows": 1386
+  },
+  "dataset": {
+    "file": "Car details v3.csv",
+    "raw_rows": 8128,
+    "raw_columns": 13,
+    "duplicate_rows": 1202,
+    "cleaned_rows": 6926,
+    "target": "selling_price"
+  },
+  "training_warnings": [
+    "The notebook's numeric-extraction regex was double-escaped, so mileage/engine/max_power/seats were all-NaN at fit time; the fitted SimpleImputer therefore drops those four columns at inference. Serving reproduces this behaviour exactly.",
+    "Linear Regression was selected for the lowest MAE; Random Forest scored a slightly higher R2 (0.710851 vs 0.703431)."
+  ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SmartCar">
+  <rect width="64" height="64" rx="14" fill="#0b1f3a"/>
+  <path d="M24 30 h16 l3.5 9 H20.5 z" fill="#93c5fd" opacity="0.9"/>
+  <path d="M10 39 h44 a2.5 2.5 0 0 1 2.5 2.5 v4.5 a2.5 2.5 0 0 1 -2.5 2.5 h-2.6 a5.2 5.2 0 0 0 -10.4 0 h-18 a5.2 5.2 0 0 0 -10.4 0 H10 a2.5 2.5 0 0 1 -2.5 -2.5 v-4.5 A2.5 2.5 0 0 1 10 39 z" fill="#3b82f6"/>
+  <path d="M17.5 39 L20.5 30 h16 l3.5 9 z" fill="#0b1f3a" opacity="0.25"/>
+  <circle cx="18.4" cy="48.5" r="5" fill="#0b1f3a" stroke="#e2e8f0" stroke-width="2.6"/>
+  <circle cx="45.6" cy="48.5" r="5" fill="#0b1f3a" stroke="#e2e8f0" stroke-width="2.6"/>
+  <path d="M4 55 h56" stroke="#1d4ed8" stroke-width="3" stroke-linecap="round" opacity="0.65"/>
+</svg>
